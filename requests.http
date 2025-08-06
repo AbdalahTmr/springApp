@@ -1,0 +1,29 @@
+### GET request to example server
+GET http://localhost:8080
+
+###
+GET http://localhost:8080/api/software-engineers
+
+###
+GET http://localhost:8080/api/software-engineers/3
+
+###
+POST http://localhost:8080/api/software-engineers
+Content-Type: application/json
+
+{
+  "name": "Malick",
+  "techStack": "JAVA, SPRING, Chatgpt"
+}
+
+###
+DELETE http://localhost:8080/api/software-engineers/2
+
+###
+PUT http://localhost:8080/api/software-engineers/1
+Content-Type: application/json
+
+{
+  "name": "Atou",
+  "techStack": "Angular, Database, Chatgpt"
+}
