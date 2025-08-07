@@ -7,7 +7,7 @@ import java.util.List;
 @Service
 public class SoftwareEnginnerService {
 
-    private SERepository seRepository;
+    private final SERepository seRepository;
 
     public SoftwareEnginnerService(SERepository softwareEngine) {
         this.seRepository = softwareEngine;

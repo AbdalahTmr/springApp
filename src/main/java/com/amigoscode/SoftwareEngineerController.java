@@ -39,7 +39,7 @@ public class SoftwareEngineerController {
         return softwareEnginnerService.getSoftwareEngineerId(id);
     }
 
-    @DeleteMapping({"id"})
+    @DeleteMapping("{id}")
     public void deleteEngineerById(
             @PathVariable Integer id
     ) {
